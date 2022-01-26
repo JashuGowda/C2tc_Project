@@ -2,8 +2,8 @@ package technoserve.c2tc.b5.entities;
 
 
 import java.time.LocalDateTime;
-/*import java.util.ArrayList;
-import java.util.List;*/
+
+//import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -74,19 +74,15 @@ public long getId() {
 		Shop = shop;
 	}
 
-	/*public List<String> getCustomers() {
+	/* public List<String> getCustomers() {
 		return Customers;
 	}
 
 	public void setCustomers(List<String> customers) {
 		Customers = customers;
-	}*/
+	} */
 
-/*@Override
-	public String toString() {
-		return order2 " [Id=" + Id + ", DateOfpurchase=" + dateOfpurchase + ", Total=" + Total + ", Customer=" +  Customer + ", Shop=" + Shop + "]";
-		
-	}*/
+
 }
 
 	
